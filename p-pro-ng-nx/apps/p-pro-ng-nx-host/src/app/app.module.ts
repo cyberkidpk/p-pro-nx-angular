@@ -3,7 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import { NxWelcomeComponent } from './nx-welcome.component';
-import {AppModuleRemote } from '../../../p-pro-ng-nx-remote/src/app/app.module'
+import { AppModuleRemote } from 'CareerMicroApp/app.module'
 
 
 

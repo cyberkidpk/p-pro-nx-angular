@@ -7,11 +7,11 @@ import { RouterModule } from '@angular/router';
 import { TestComponent } from './test/test.component';
 
 const routes =[{ 
-  path:'remote/first-component',
+  path:'remote/client-success',
   component: TestComponent,
 },
 {
-path:'remote/second-component',
+path:'remote/careers',
 component: NxWelcomeComponent,
 }]
 

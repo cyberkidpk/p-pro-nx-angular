@@ -458,7 +458,7 @@ import { Component, OnInit, ViewEncapsulation } from '@angular/core';
               <span>You&apos;re up and running</span>
             </h2>
             <!-- a href="#commands"> LOAD REMOTE </a> -->
-            <a href="#" (click)="loadRemote">BELOW IS THE REMOTE APP</a>
+            <a href="#" (click)="loadRemote">BELOW IS THE MICRO APP</a>
             </div>
 
           <div class="logo-container">
