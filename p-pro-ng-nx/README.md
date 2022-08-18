@@ -19,10 +19,10 @@
 *npx create-nx-workspace@latest*
 
 You then receive the following prompts in your command line:
-Workspace name (e.g., org name)     myOrg
+*Workspace name (e.g., org name)     myOrg
 What to create in the new workspace angular
 Application name                    app-name
-Default stylesheet format           SCSS
+Default stylesheet format           SCSS*
 
 #Serve, test, build the application
 *npx nx serve app-name*
