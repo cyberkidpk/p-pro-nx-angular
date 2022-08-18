@@ -20,19 +20,19 @@
 
 You then receive the following prompts in your command line:
 
-Workspace name (e.g., org name)    **myOrg**
+Workspace name (e.g., org name)    **p-pro-ng-nx**
 
 What to create in the new workspace **angular**
 
-Application name                    **app-name**
+Application name                    **p-pro-ng-nx-app1**
 
 Default stylesheet format          **SCSS**
 
 **Serve, test, build the application**
 
-*npx nx serve app-name*
-*npx nx test app-name*
-*npx nx build app-name*
+*npx nx serve p-pro-ng-nx-app1*
+*npx nx test p-pro-ng-nx-app1*
+*npx nx build p-pro-ng-nx-app1*
 
 **Creating angular or other application/project after workspace generation**
 
