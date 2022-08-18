@@ -1,7 +1,7 @@
 
 
 <p> #P-PRO-NG-NX project 
-  is just for demo and guidance purpose, below are the prerequisites before running code</p>
+  is just for demo and guidance purpose, below are the prerequisites before running the code</p>
   
 *Step 1*
 1. Install the latest version of **Node Js**
