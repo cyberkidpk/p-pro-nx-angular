@@ -28,39 +28,48 @@ Application name                    **p-pro-ng-nx-app1**
 
 Default stylesheet format          **SCSS**
 
+
 **Serve, test, build the application**
 
 *npx nx serve p-pro-ng-nx-app1*
+
 *npx nx test p-pro-ng-nx-app1*
+
 *npx nx build p-pro-ng-nx-app1*
+
 
 **Creating angular or other application/project after workspace generation**
 
 *npx nx generate @nrwl/angular:app p-pro-ng-nx-new-app*
 
+
 **Create An angular Component **
 
-*npx nx g @nrwl/angular:component --name=test --project=p-pro-ng-nx-new-app*  
+*npx nx g @nrwl/angular:component --name=myComponent --project=p-pro-ng-nx-new-app*  
 
 #Handle multiple Projects/Apps
-***nc run command***  executes a target on a single project.
-For convenience, you can also run ***npx nx [target] [project]*** which is an alias to ***npx nx run [project]:[target]***.
+***nx run command***  executes a target on a single project.
+
+For convenience, you can also run **npx nx [target] [project]** which is an alias to **npx nx run [project]:[target]**.
      
      *nx run-many --target=build --projects=app1,app2*
+     
      *nx run-many --target=test --all*
      
 **Runs all projects that have a test target, use this sparingly.**
 
-The ***nx affected command*** isolates the set projects that may have changed in behavior and runs a target across them.
+The **nx affected command** isolates the set projects that may have changed in behavior and runs a target across them.
+
 This is more efficient than running all projects every time.
 
    *npx nx affected --target=build*
    
 # PRO TIP - Generating first workspace and app with desired parameters #
+
 *npx create-nx-workspace --preset=angular --name=p-pro-ng-nx --appName=p-pro-ng-nx-host --cli=angular --interactive=true --packageManager=yarn*
 
 
-
+##################################################################################################################################################################
 
 ##################################################################################################################################################################
 
