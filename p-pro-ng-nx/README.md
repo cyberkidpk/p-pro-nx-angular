@@ -15,7 +15,7 @@
 
 # PProNgNx
 
-# CREATTING A WORKSPACE FROM VERY START
+# CREATTING A WORKSPACE FROM THE VERY START
 *npx create-nx-workspace@latest*
 
 You then receive the following prompts in your command line:
