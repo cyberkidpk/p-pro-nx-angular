@@ -1,6 +1,8 @@
 
 
-<p> P-PRO-NG-NX project is just for the just for demo and guidance purpose, below are the prerequisites befor forking  the repository</p>
+<p> #P-PRO-NG-NX project 
+  is just for demo and guidance purpose, below are the prerequisites before running code</p>
+  
 *Step 1*
 1. Install the latest node version
 2. Install yarn *npm install -g yarn*
