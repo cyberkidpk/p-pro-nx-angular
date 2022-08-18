@@ -48,8 +48,8 @@ This is more efficient than running all projects every time.
 
    *npx nx affected --target=build*
    
-####PRO TIP - Generating first workspace and app with desired parameters ####
-*npx create-nx-workspace --preset=angular --name=p-pro-ng-nx --appName=p-pro-ng-nx-host --cli=angular --interactive=true --packageManager=yarn *
+# PRO TIP - Generating first workspace and app with desired parameters #
+*npx create-nx-workspace --preset=angular --name=p-pro-ng-nx --appName=p-pro-ng-nx-host --cli=angular --interactive=true --packageManager=yarn*
 
 
 
