@@ -15,7 +15,7 @@
 
 ==========================================================================================================
 
-# PProNgNx
+# Workspace Project PProNgNx
 
 # CREATTING A WORKSPACE FROM THE VERY START
     npx create-nx-workspace@latest
