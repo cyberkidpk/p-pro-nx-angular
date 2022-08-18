@@ -45,7 +45,7 @@ You then receive the following prompts in your command line:
     npx nx generate @nrwl/angular:app p-pro-ng-nx-new-app
 
 
-**Create An angular Component **
+**Create An angular Component**
 
     npx nx g @nrwl/angular:component --name=myComponent --project=p-pro-ng-nx-new-app  
 
