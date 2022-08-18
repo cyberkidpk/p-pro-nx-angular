@@ -20,23 +20,23 @@
 
 You then receive the following prompts in your command line:
 
-*Workspace name (e.g., org name)     myOrg
+Workspace name (e.g., org name)    ** myOrg**
 
-What to create in the new workspace angular
+What to create in the new workspace **angular**
 
-Application name                    app-name
+Application name                    **app-name**
 
-Default stylesheet format           SCSS*
+Default stylesheet format          ** SCSS**
 
-#Serve, test, build the application
+**Serve, test, build the application**
 *npx nx serve app-name*
 *npx nx test app-name*
 *npx nx build app-name*
 
-#Creating angular or other application/project after workspace generation
+**Creating angular or other application/project after workspace generation**
 *npx nx generate @nrwl/angular:app p-pro-ng-nx-new-app*
 
-#Create An angular Component 
+**Create An angular Component **
 *npx nx g @nrwl/angular:component --name=test --project=p-pro-ng-nx-new-app*  
 
 #Handle multiple Projects/Apps
@@ -45,7 +45,8 @@ For convenience, you can also run *npx nx [target] [project]* which is an alias 
      
      *nx run-many --target=build --projects=app1,app2*
      *nx run-many --target=test --all*
-# Runs all projects that have a test target, use this sparingly.
+     
+**Runs all projects that have a test target, use this sparingly.**
 
 The *nx affected command* isolates the set projects that may have changed in behavior and runs a target across them.
 This is more efficient than running all projects every time.
