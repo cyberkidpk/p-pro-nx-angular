@@ -4,14 +4,14 @@
   is just for demo and guidance purpose, below are the prerequisites before running code</p>
   
 *Step 1*
-1. Install the latest node version
-2. Install yarn *npm install -g yarn*
+1. Install the latest version of **Node Js**
+2. Install yarn **npm install -g yarn**
 
 *Step 2*
 1. Fork or clone the repository
-2. Navigate to *p-pro-ng-nx* folder
-3. *yarn install*
-4. *npx nx serve p-pro-ng-nx-host* to run the host application
+2. Navigate to **p-pro-ng-nx** folder
+3. **yarn install**
+4. **npx nx serve p-pro-ng-nx-host** to run the host application
 
 ==========================================================================================================
 
