@@ -13,6 +13,10 @@
 3. **yarn install**
 4. **npx nx serve p-pro-ng-nx-host** to run the host application
 
+*Additionally See Dependency Graph with*
+    
+    npx nx graph
+
 ==========================================================================================================
 
 # Workspace Project PProNgNx
