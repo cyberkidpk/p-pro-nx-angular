@@ -1,0 +1,10 @@
+{
+  "$schema": "./node_modules/nx/schemas/workspace-schema.json",
+  "version": 2,
+  "projects": {
+    "p-pro-ng-nx-host": "apps/p-pro-ng-nx-host",
+    "p-pro-ng-nx-host-e2e": "apps/p-pro-ng-nx-host-e2e",
+    "p-pro-ng-nx-remote": "apps/p-pro-ng-nx-remote",
+    "p-pro-ng-nx-remote-e2e": "apps/p-pro-ng-nx-remote-e2e"
+  }
+}

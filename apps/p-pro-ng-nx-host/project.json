@@ -1,0 +1,93 @@
+{
+  "projectType": "application",
+  "sourceRoot": "apps/p-pro-ng-nx-host/src",
+  "prefix": "p-pro-ng-nx",
+  "targets": {
+    "build": {
+      "executor": "@angular-devkit/build-angular:browser",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "outputPath": "dist/apps/p-pro-ng-nx-host",
+        "index": "apps/p-pro-ng-nx-host/src/index.html",
+        "main": "apps/p-pro-ng-nx-host/src/main.ts",
+        "polyfills": "apps/p-pro-ng-nx-host/src/polyfills.ts",
+        "tsConfig": "apps/p-pro-ng-nx-host/tsconfig.app.json",
+        "inlineStyleLanguage": "scss",
+        "assets": [
+          "apps/p-pro-ng-nx-host/src/favicon.ico",
+          "apps/p-pro-ng-nx-host/src/assets"
+        ],
+        "styles": ["apps/p-pro-ng-nx-host/src/styles.scss"],
+        "scripts": []
+      },
+      "configurations": {
+        "production": {
+          "budgets": [
+            {
+              "type": "initial",
+              "maximumWarning": "500kb",
+              "maximumError": "1mb"
+            },
+            {
+              "type": "anyComponentStyle",
+              "maximumWarning": "2kb",
+              "maximumError": "4kb"
+            }
+          ],
+          "fileReplacements": [
+            {
+              "replace": "apps/p-pro-ng-nx-host/src/environments/environment.ts",
+              "with": "apps/p-pro-ng-nx-host/src/environments/environment.prod.ts"
+            }
+          ],
+          "outputHashing": "all"
+        },
+        "development": {
+          "buildOptimizer": false,
+          "optimization": false,
+          "vendorChunk": true,
+          "extractLicenses": false,
+          "sourceMap": true,
+          "namedChunks": true
+        }
+      },
+      "defaultConfiguration": "production"
+    },
+    "serve": {
+      "executor": "@angular-devkit/build-angular:dev-server",
+      "configurations": {
+        "production": {
+          "browserTarget": "p-pro-ng-nx-host:build:production"
+        },
+        "development": {
+          "browserTarget": "p-pro-ng-nx-host:build:development"
+        }
+      },
+      "defaultConfiguration": "development"
+    },
+    "extract-i18n": {
+      "executor": "@angular-devkit/build-angular:extract-i18n",
+      "options": {
+        "browserTarget": "p-pro-ng-nx-host:build"
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "options": {
+        "lintFilePatterns": [
+          "apps/p-pro-ng-nx-host/**/*.ts",
+          "apps/p-pro-ng-nx-host/**/*.html"
+        ]
+      }
+    },
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/apps/p-pro-ng-nx-host"],
+      "options": {
+        "jestConfig": "apps/p-pro-ng-nx-host/jest.config.ts",
+        "passWithNoTests": true
+      }
+    }
+  },
+  "tags": []
+}
