@@ -1,5 +1,3 @@
-
-
 <p> #P-PRO-NG-NX project 
   is just for demo and guidance purpose, below are the prerequisites before running the code</p>
   
@@ -162,3 +160,9 @@ Run `nx graph` to see a diagram of the dependencies of your projects.
 ## Further help
 
 Visit the [Nx Documentation](https://nx.dev/angular) to learn more.
+=======
+# p-pro-nx-angular
+Angular microfrontend with nx js
+
+Exhibitory CODE is in p-pro-ng-nx branch, please visit https://github.com/cyberkidpk/p-pro-nx-angular/tree/p-pro-ng-init
+
